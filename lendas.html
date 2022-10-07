@@ -1,112 +1,159 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="./lendasss.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="./lendas.css">
     <link rel="icon" href="./icone.png">
-
-    <title>Pará</title>
+    <title>Lendas</title>
 </head>
 
 <body>
-    <div class="container-fluid banner">
-        <div class="row">
-            <div class="col-md-12">
+    
+    <!-- Menu Hamburguer  -->
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <h1>Pará</h1>
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./historia.html">História</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./musicas.html">Músicas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./turismo.html">Turismo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./comidas.html">Alimentação</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./lendas.html">Lendas</a>
+                    </li>
+                </ul>
+            </div>
 
-                <!-- Menu Hamburguer  -->
-                <header>
-                    <nav class="nav-bar">
-                        <div class="logo">
-                            <h1>Pará</h1>
-                        </div>
-                        <div class="nav-list">
-                            <ul>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="./index.html">Início</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="./historia.html">História</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="./musicas.html">Músicas</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="./turismo.html">Turismo</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="./comidas.html">Alimentação</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="./lendas.html">Lendas</a>
-                                </li>
-                            </ul>
-                        </div>
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="./menu.svg" alt=""></button>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./historia.html">História</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./musicas.html">Músicas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./turismo.html">Turismo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./comidas.html">Alimentação</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./lendas.html">Lendas</a>
+                </li>
+                <br>
+            </ul>
+        </div>
+    </header>
 
-                        <div class="mobile-menu-icon">
-                            <button onclick="menuShow()"><img class="icon" src="./menu.svg" alt=""></button>
-                        </div>
-                    </nav>
-                    <div class="mobile-menu">
-                        <ul>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./index.html">Início</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./historia.html">História</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./musicas.html">Músicas</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./turismo.html">Turismo</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./comidas.html">Alimentação</a>
-                            </li>
-                        </ul>
-                    </div>
-                </header>
+    <div class="titulo">
+        <h1>Algumas Lendas do Pará</h1>
+    </div>
+   
+    <section class="container-dad">
 
-                <!-- Conteúdo  -->
+        <div class="card-container">
 
+            <div class="card0">
+                <img src="./boto.jpg" alt="" class="img">
 
-                <div class="container">
-                    <div class="card">
-                        <div class="img">
-                            
-                        </div>
-                        <div class="content">
-                            <p class="desc">
-                                Diz a lenda que em noite de lua cheia o boto sai do rio, se transforma em um homem
-                                bonito e
-                                sedutor, lança seus encantos sobre uma moça da região, a engravida e depois volta pro
-                                rio.
-                                A história é uma velha conhecida de quem mora no Norte do país. A manauara Ana Célia
-                                Costa
-                                aprendeu a lenda desde criança. E o conto virou motivo de preocupação para a família
-                                quando o
-                                corpo da menina deu os primeiros sinais de mocidade.
-                            </p>
-                        </div>
-                        <div class="arrow">
-                            <span>Boto Cor de Rosa</span>
-                        </div>
-                    </div>
+                <div class="text">
+                    <h3 class="title">Boto Cor-de-Rosa</h3>
+                    <span class="profession">
+                        Diz a lenda que em noite de lua cheia o boto sai do rio, se transforma em um homem
+                        bonito e
+                        sedutor, lança seus encantos sobre uma moça da região, a engravida e depois volta pro
+                        rio.
+                        <p>A história é uma velha conhecida de quem mora no Norte do país. A manauara Ana Célia
+                            Costa
+                            aprendeu a lenda desde criança. E o conto virou motivo de preocupação para a família
+                            quando o
+                            corpo da menina deu os primeiros sinais de mocidade.</p>
+                    </span>
                 </div>
 
+
+                <div class="social-network">
+                    <a href="#" class="link"><i class="bx bxl-instagram"></i></a>
+                    <a href="#" class="link"><i class="bx bxl-facebook"></i></a>
+                    <a href="#" class="link"><i class="bx bxl-twitter"></i></a>
+                    <a href="#" class="link"><i class="bx bxl-github"></i></a>
+                </div>
             </div>
+
+            <div class="card0">
+                <img src="./cobra.jpg" alt="" class="img">
+
+                <div class="text">
+                    <h3 class="title">Cobra-Grande</h3>
+                    <span class="profession">
+                        Uma índia engravidou da Boiuna e ganhou um casal de gêmeos. As crianças ao
+                        nascerem receberam o
+                        nome de Norato e Maria Caninana.
+                        A mãe logo percebeu que os bebês possuíam semelhança de cobra e foi consultar com o chefe da
+                        tribo. Ela perguntou se deveria matá-los ou jogá-los no rio. O pajé informou que ela não poderia
+                        matá-los se não ela morria também, então a índia decidiu soltá-los no rio Tocantins.</span>
+                </div>
+
+
+                <div class="social-network">
+                    <a href="#" class="link"><i class="bx bxl-instagram"></i></a>
+                    <a href="#" class="link"><i class="bx bxl-facebook"></i></a>
+                    <a href="#" class="link"><i class="bx bxl-twitter"></i></a>
+                    <a href="#" class="link"><i class="bx bxl-github"></i></a>
+                </div>
+            </div>
+
+            <div class="card0">
+                <img src="./matinta.png" alt="" class="img">
+
+                <div class="text">
+                    <h3 class="title">Matinta Perera</h3>
+                    <span class="profession">
+                        Matinta Pereira é uma bruxa velha que assombra as casas das redondezas
+                        durante à noite, momento em que ela se torna um pássaro, o “Rasga Mortalha”. Assim, o pássaro
+                        pousa nos telhados ou nos muros das casas emitindo um assobio alto e estridente para que os
+                        moradores deem conta de sua presença.</span>
+                </div>
+
+
+                <div class="social-network">
+                    <a href="#" class="link"><i class="bx bxl-instagram"></i></a>
+                    <a href="#" class="link"><i class="bx bxl-facebook"></i></a>
+                    <a href="#" class="link"><i class="bx bxl-twitter"></i></a>
+                    <a href="#" class="link"><i class="bx bxl-github"></i></a>
+                </div>
+            </div>
+
         </div>
-        <script src="./script.js"></script>
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-        <script>
-            AOS.init({
-                duration: 1000,
-            });
-        </script>
+    </section>
+
+    <script src="./script.js"></script>
 </body>
 
 </html>
