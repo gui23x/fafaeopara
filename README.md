@@ -12,3 +12,13 @@ Créditos pela ajuda: youtubers
 -EdiCursos
 -Inteliogia
 -Heroway Brasil
+
+Sites com as Informações:
+
+-Wikipédia
+-Portal São Francisco
+
+Sites com as Imagens:
+
+-Google
+-Yandex
